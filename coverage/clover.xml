@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1690491599178" clover="3.2.0">
-  <project timestamp="1690491599179" name="All files">
+<coverage generated="1690492004435" clover="3.2.0">
+  <project timestamp="1690492004441" name="All files">
     <metrics statements="15" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="10" coveredmethods="1" elements="25" coveredelements="2" complexity="0" loc="15" ncloc="15" packages="1" files="3" classes="3"/>
     <file name="gameSavingLoader.js" path="D:\task10\src\gameSavingLoader.js">
       <metrics statements="3" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="3" coveredmethods="1"/>
-      <line num="6" count="1" type="stmt"/>
+      <line num="6" count="2" type="stmt"/>
       <line num="7" count="0" type="stmt"/>
       <line num="8" count="0" type="stmt"/>
     </file>

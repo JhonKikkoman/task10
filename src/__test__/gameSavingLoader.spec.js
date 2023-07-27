@@ -1,4 +1,5 @@
 import GameSavingLoader from '../gameSavingLoader';
+import read from '../reader';
 
 jest.mock('../reader');
 beforeEach(() => {
