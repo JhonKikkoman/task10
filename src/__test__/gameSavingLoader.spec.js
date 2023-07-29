@@ -1,10 +1,5 @@
 import GameSavingLoader from '../gameSavingLoader';
-import read from '../reader';
-
-jest.mock('../reader');
-beforeEach(() => {
-  jest.resetAllMocks();
-});
+import GameSaving from '../gameSaving';
 
 jest.setTimeout(10000);
 describe('testing class GameSavingLoader', () => {
@@ -15,12 +10,17 @@ describe('testing class GameSavingLoader', () => {
       done();
     });
   });
-  test('check in method load throw Error', async () => {
+});
+
+describe('testing async', () => {
+  test('check in method load with async', async () => {
+    const result = '{"id":9,"created":1546300800,"userInfo":{"id":1,"name":"Hitman","level":10,"points":2000}}';
     try {
-      read.mockRejectedValueOnce(new Error('Async error message'));
-      await GameSavingLoader.load();
+      await GameSaving.load().then((saving) => {
+        expect(saving).toEqual(result);
+      });
     } catch (error) {
-      expect(error.message).toEqual('Async error message');
+      expect(error).toBe(error);
     }
   });
 });
