@@ -3,6 +3,15 @@ import GameSaving from '../gameSaving';
 
 jest.setTimeout(10000);
 describe('testing class GameSavingLoader', () => {
+  test('class gameSaving', () => {
+    const receiver = new GameSaving(1);
+    const result = {
+      id: 1,
+      created: Date.now(),
+      userInfo: GameSavingLoader.load(),
+    };
+    expect(receiver).toEqual(result);
+  });
   test('check in method load', (done) => {
     const result = '{"id":9,"created":1546300800,"userInfo":{"id":1,"name":"Hitman","level":10,"points":2000}}';
     GameSavingLoader.load().then((saving) => {

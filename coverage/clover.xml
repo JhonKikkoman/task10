@@ -1,35 +1,37 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1690657007874" clover="3.2.0">
-  <project timestamp="1690657007878" name="All files">
-    <metrics statements="17" coveredstatements="16" conditionals="0" coveredconditionals="0" methods="11" coveredmethods="10" elements="28" coveredelements="26" complexity="0" loc="17" ncloc="17" packages="1" files="4" classes="4"/>
+<coverage generated="1691329733687" clover="3.2.0">
+  <project timestamp="1691329733687" name="All files">
+    <metrics statements="19" coveredstatements="18" conditionals="0" coveredconditionals="0" methods="11" coveredmethods="10" elements="30" coveredelements="28" complexity="0" loc="19" ncloc="19" packages="1" files="4" classes="4"/>
     <file name="gameSaving.js" path="D:\task10\src\gameSaving.js">
-      <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+      <metrics statements="4" coveredstatements="4" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+      <line num="5" count="1" type="stmt"/>
       <line num="6" count="1" type="stmt"/>
+      <line num="7" count="1" type="stmt"/>
       <line num="8" count="1" type="stmt"/>
     </file>
     <file name="gameSavingLoader.js" path="D:\task10\src\gameSavingLoader.js">
       <metrics statements="3" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="3" coveredmethods="2"/>
-      <line num="6" count="2" type="stmt"/>
-      <line num="7" count="1" type="stmt"/>
+      <line num="6" count="5" type="stmt"/>
+      <line num="7" count="4" type="stmt"/>
       <line num="8" count="0" type="stmt"/>
     </file>
     <file name="parser.js" path="D:\task10\src\parser.js">
       <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="3" coveredmethods="3"/>
-      <line num="2" count="2" type="stmt"/>
-      <line num="3" count="2" type="stmt"/>
-      <line num="4" count="2" type="stmt"/>
+      <line num="2" count="4" type="stmt"/>
+      <line num="3" count="4" type="stmt"/>
+      <line num="4" count="4" type="stmt"/>
     </file>
     <file name="reader.js" path="D:\task10\src\reader.js">
       <metrics statements="9" coveredstatements="9" conditionals="0" coveredconditionals="0" methods="4" coveredmethods="4"/>
-      <line num="2" count="2" type="stmt"/>
-      <line num="3" count="2" type="stmt"/>
-      <line num="4" count="2" type="stmt"/>
-      <line num="5" count="2" type="stmt"/>
-      <line num="6" count="2" type="stmt"/>
-      <line num="7" count="2" type="stmt"/>
-      <line num="9" count="2" type="stmt"/>
-      <line num="10" count="180" type="stmt"/>
-      <line num="12" count="2" type="stmt"/>
+      <line num="2" count="4" type="stmt"/>
+      <line num="3" count="4" type="stmt"/>
+      <line num="4" count="4" type="stmt"/>
+      <line num="5" count="4" type="stmt"/>
+      <line num="6" count="4" type="stmt"/>
+      <line num="7" count="4" type="stmt"/>
+      <line num="9" count="4" type="stmt"/>
+      <line num="10" count="360" type="stmt"/>
+      <line num="12" count="4" type="stmt"/>
     </file>
   </project>
 </coverage>

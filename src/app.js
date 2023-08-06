@@ -1,5 +1,5 @@
 import GameSavingLoader from './gameSavingLoader';
-import gameSaving from './gameSaving';
+import gameSavingAsync from './gameSavingAsync';
 
 GameSavingLoader.load().then((saving) => {
   console.log(saving);
@@ -9,7 +9,7 @@ GameSavingLoader.load().then((saving) => {
 
 (async () => {
   try {
-    await gameSaving.load().then((saving) => {
+    await gameSavingAsync.load().then((saving) => {
       console.log(saving);
     });
   } catch (error) {
